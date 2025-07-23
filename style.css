@@ -1,0 +1,55 @@
+*{
+    text-align: center;
+    font-size: large;
+    font-family: monospace;
+}
+h1{
+    font-family: helvetica;
+    font-size: 10vh;
+    font-style: italic;
+}
+#container{
+    height:30vh;
+    padding-top:10vh;
+    padding-bottom: 10vh;
+    background-color:rgb(222, 213, 213);
+    border: .2px solid whitesmoke;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 50px;
+    box-shadow: 5px 5px 15px ;
+}
+#display{
+    font-family:monospace;
+    font-size: 10vh;
+    padding: 15px;
+}#controls button{
+    color: white;
+    font-family: helvetica;
+    font-size: 4vh;
+    border-radius: 50px;
+    padding: 10px ;
+    min-width: 175px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3 ease;
+}
+#startbtn{
+    background-color: hsl(120, 100%, 25%);
+}
+#startbtn:hover{
+    background-color: hsl(120, 100%, 35%);  
+}
+#stopbtn{
+background-color:hsl(0, 100%, 50%);
+}
+#stopbtn:hover{
+    background-color:hsla(0, 100%, 70%);  
+}
+#resetbtn{
+    background-color:hsl(240, 100%, 50%);
+}
+#resetbtn:hover{
+    background-color: hsl(240, 100%, 70%);  
+}
+
